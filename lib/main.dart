@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shop/screens/products_overview_screen.dart';
 
 void main() {
   runApp(const shop());
@@ -29,6 +30,6 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return productsOverviewScreen();
   }
 }
